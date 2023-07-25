@@ -1,0 +1,201 @@
+body {
+    background-color: floralwhite;
+    opacity: 1.3;
+    font-family: Garamond, serif;
+    /* background-image: url("kallina\ rata.jpeg");
+    background-position: right top;
+    background-attachment: fixed;
+    margin-right: 200px;
+    background-repeat: no-repeat;*/
+}
+
+.mare {
+    color: chocolate;
+    border: 2px;
+    border-radius: 12px;
+    direction: right;
+}
+
+.mare:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: seagreen;
+}
+
+a:link {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+}
+
+H1 {
+    background-color: rgba(255, 68, 0, 80%);
+    border: 2px solid;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    border-left: 6px solid red;
+    text-align: justify;
+    text-shadow: 2px 2px 5px red;
+}
+
+.center {
+    height: 50%;
+    border: 6px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(31, 43, 209);
+    border-color: coral;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 20px;
+}
+
+.photocard {
+    margin-left: 0%;
+    margin-right: 25%;
+    width: 50%;
+    height: 40%;
+    border-style: groove;
+    border: 2px solid salmon;
+}
+
+.bblu {
+    color: dodgerblue;
+}
+
+div.gallery {
+    border: 1px solid gray;
+    float: left;
+    margin: 5px;
+    width: 200px;
+    /* display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue; */
+}
+
+div.gallery:hover {
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width:1288px) {
+    div.gallery {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    div.gallery {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    div.gallery {
+        width: 50%;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: scroll;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #111;
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:400px) {
+    .navbar {
+        display: none;
+    }
+}
